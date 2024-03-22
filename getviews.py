@@ -144,7 +144,7 @@ def tui():
 clear_output()
 print(logo)
 channel = "Techno_Trickop"
-post = "1197"
+post = "1198"
 
 try:
     search('<span class="tgme_widget_message_views">([^<]+)', requests.get(f'https://t.me/{channel}/{post}',
